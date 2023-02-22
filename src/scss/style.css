@@ -1,0 +1,370 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+legend,
+caption {
+  position: absolute;
+  left: -999999px;
+}
+
+fieldset {
+  border: none;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: none;
+}
+
+body {
+  font-family: "Noto Sans KR", "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.64px;
+  color: #444;
+  background-color: #f5f5f5;
+  word-break: keep-all;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+  background-color: #eee;
+  border-radius: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8da0b1;
+  border-radius: 2px;
+}
+
+.wrap {
+  position: relative;
+  display: block;
+}
+
+.inner {
+  position: relative;
+  display: block;
+  max-width: 1460px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+h2 {
+  padding: 50px 0;
+  color: #222;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+h3 {
+  padding: 30px 0;
+  color: #222;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  z-index: 9999;
+  border-bottom: 1px solid #ddd;
+}
+.header .inner {
+  height: 100%;
+}
+.header .inner .nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .inner .nav .header-logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #131313;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.header .inner .nav .gnb {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .inner .nav .gnb li {
+  cursor: pointer;
+  padding: 0 25px;
+}
+.header .inner .nav .gnb li span {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #131313;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+.header .inner .nav .gnb li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #131313;
+  transition: width 0.5s;
+}
+.header .inner .nav .gnb li:hover span {
+  color: #000;
+}
+.header .inner .nav .gnb li:hover span::after {
+  width: 100%;
+}
+.header .inner .nav .mobile-bt {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .gnb li {
+    padding: 0 20px !important;
+  }
+}
+@media screen and (max-width: 860px) {
+  .gnb {
+    display: none !important;
+  }
+  .mobile-bt {
+    display: block !important;
+  }
+}
+.footer {
+  height: 80px;
+}
+.footer .inner {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+}
+.footer .inner copy {
+  font-size: 14px;
+}
+
+.gotop {
+  position: fixed;
+  right: 50px;
+  bottom: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #222;
+  z-index: 9997;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  transition: bottom 0.5s;
+}
+
+.active {
+  bottom: 100px !important;
+}
+
+.mobile {
+  position: fixed;
+  left: 100%;
+  top: 80px;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 9998;
+  transition: left 0.3s ease-in-out;
+}
+.mobile.active {
+  left: 0 !important;
+}
+.mobile .mobile-menu li {
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.mobile .mobile-menu li span {
+  font-size: 30px;
+}
+.mobile .mobile-menu li:hover span {
+  color: #000;
+}
+
+.visual {
+  height: calc(100vh - 80px);
+  min-height: 650px;
+}
+.visual .inner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .inner .contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.profile .inner .contents .profile-box {
+  width: calc(50% - 10px);
+  text-align: center;
+}
+.profile .inner .contents .profile-box img {
+  width: 95%;
+}
+
+@media screen and (max-width: 860px) {
+  .profile .contents {
+    flex-wrap: wrap !important;
+  }
+  .profile .contents .profile-box {
+    width: 100% !important;
+  }
+}
+.skills .inner .contents .skills-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills .inner .contents .skills-list li {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skills .inner .contents .skills-list li img {
+  width: 80%;
+}
+
+@media screen and (max-width: 860px) {
+  .skills-list li {
+    width: 50% !important;
+  }
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left {
+  width: calc(60% - 10px);
+  text-align: center;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left a {
+  display: block;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left a img {
+  width: 90%;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right {
+  width: calc(40% - 10px);
+}
+.portfolio .inner .contents .portfolio-box .portfolio-slide .swiper-button-next,
+.portfolio .inner .contents .portfolio-box .portfolio-slide .swiper-button-prev {
+  color: #fff !important;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-slide a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-slide a img {
+  width: 100%;
+}
+
+@media screen and (max-width: 860px) {
+  .portfolio-left,
+  .portfolio-right {
+    width: 100% !important;
+  }
+}
+.vision .inner .contents .vision-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vision .inner .contents .vision-list li {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 860px) {
+  .vision-list {
+    flex-wrap: wrap;
+  }
+}
+.life .inner .contents .life-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.life .inner .contents .life-list li {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.life .inner .contents .life-list li img {
+  width: 90%;
+}
+
+@media screen and (max-width: 860px) {
+  .life-list li {
+    width: 50% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
