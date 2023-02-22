@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Anime from "../assets/Anime";
 
 const Visual = () => {
-  // const path = process.env.PUBLIC_URL;
+  const path = process.env.PUBLIC_URL;
   const style = {
     width: 100,
     height: 100,
@@ -16,8 +16,8 @@ const Visual = () => {
     <div className="visual scroll">
       <div className="inner">
         {/* 첫인상 남기기(사진/대표단어) */}
-        {/* <img src={`${path}/images/visual.png`} alt="visual" /> */}
-        <img src="/images/visual.png" alt="visual" />
+        <img src={`${path}/images/visual.png`} alt="visual" />
+        {/* <img src="/images/visual.png" alt="visual" /> */}
         {/* Anime 샘플 */}
         <div
           ref={box}
