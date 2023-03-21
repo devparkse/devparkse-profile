@@ -46,7 +46,7 @@ table td {
 }
 
 body {
-  font-family: "Noto Sans KR", "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
+  font-family: "Noto Sans KR", "Poppins", "Apple SD Gothic Neo", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -309,14 +309,26 @@ h3 {
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left a {
   display: block;
 }
-.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left a img {
+.portfolio
+  .inner
+  .contents
+  .portfolio-box
+  .portfolio-team
+  .portfolio-left
+  a
+  img {
   width: 90%;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right {
   width: calc(40% - 10px);
 }
 .portfolio .inner .contents .portfolio-box .portfolio-slide .swiper-button-next,
-.portfolio .inner .contents .portfolio-box .portfolio-slide .swiper-button-prev {
+.portfolio
+  .inner
+  .contents
+  .portfolio-box
+  .portfolio-slide
+  .swiper-button-prev {
   color: #fff !important;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-slide a {
@@ -367,4 +379,4 @@ h3 {
   .life-list li {
     width: 50% !important;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

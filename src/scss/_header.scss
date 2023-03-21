@@ -14,10 +14,22 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      .header-logo {
-        cursor: pointer;
-        width: 109px;
-        height: 79px;
+      .header-left {
+        display: flex;
+        align-items: center;
+        .header-logo {
+          cursor: pointer;
+          width: 64px;
+          height: 56px;
+        }
+        .header-txt {
+          font-family: "Poppins", sans-serif;
+          font-size: 24px;
+          color: #131313;
+          font-weight: 600;
+          cursor: pointer;
+          text-transform: uppercase;
+        }
       }
       .gnb {
         height: 100%;
@@ -33,7 +45,7 @@
           span {
             position: relative;
             font-family: "Poppins", sans-serif;
-            font-size: 18px;
+            font-size: 20px;
             color: #131313;
             text-transform: uppercase;
             font-weight: 600;

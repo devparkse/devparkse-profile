@@ -1,14 +1,105 @@
 .profile {
+  height: calc(100vh - 80px);
   .inner {
+    .about-me {
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-size: 40px;
+      font-weight: 300;
+      &::after {
+        content: "";
+        display: inline-block;
+        position: relative;
+        width: 300px;
+        height: 1px;
+        margin-left: 20px;
+        background-color: #5a5a5a;
+      }
+    }
+    .about-title {
+      position: relative;
+      display: block;
+      font-size: 35px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      margin-bottom: 4%;
+      color: #5a5a5a;
+      .title-name {
+        position: relative;
+        font-size: 40px;
+        color: #000;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 75%;
+          left: 0;
+          display: block;
+          width: 121px;
+          height: 10px;
+          background-color: #f57584;
+          z-index: -1;
+        }
+      }
+    }
     .contents {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      .profile-box {
-        width: calc(50% - 10px);
+      .profile-box-left {
+        width: 40%;
         text-align: center;
-        img {
-          width: 95%;
+        .profile-img {
+          width: 100%;
+          height: 80%;
+          border-radius: 10px;
+          box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.2);
+        }
+      }
+      .profile-box-right {
+        width: 56%;
+        text-align: center;
+        .profile-desc {
+          font-size: 18px;
+          line-height: 30px;
+          margin-bottom: 6%;
+          p {
+            text-align: left;
+          }
+          .desc-title {
+            font-size: 20px;
+            font-weight: 500;
+            color: #f57584;
+          }
+        }
+        p {
+          text-align: left;
+        }
+        .profile-etc {
+          display: flex;
+          justify-content: space-between;
+          p {
+            font-size: 18px;
+            margin-bottom: 3%;
+          }
+          .profile-edu {
+            width: 45%;
+          }
+          .profile-license {
+            width: 45%;
+          }
+          .etc-title {
+            font-size: 30px;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 1%;
+          }
+          .edu-title {
+            font-size: 20px;
+            font-weight: 500;
+            color: #f57584;
+          }
         }
       }
     }

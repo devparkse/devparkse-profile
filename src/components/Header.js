@@ -1,17 +1,29 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import Anime from "../assets/Anime";
+
 const Header = ({ setPage, setOpen, open }) => {
   const path = process.env.PUBLIC_URL;
+  const goTop = () => {
+    new Anime(window, {
+      prop: "scroll",
+      value: -80,
+      duration: 500,
+    });
+    setPage(0);
+  };
   return (
     <header className="header">
       <div className="inner">
         <nav className="nav">
-          <img
-            className="header-logo"
-            src={`${path}/images/logo.png`}
-            alt="logo"
-            onClick={() => setPage(0)}
-          />
+          <div className="header-left" onClick={() => goTop()}>
+            <img
+              className="header-logo"
+              src={`${path}/images/logo.png`}
+              alt="logo"
+            />
+            <span className="header-txt">&nbsp;Park Sieun</span>
+          </div>
           <ul className="gnb">
             <li onClick={() => setPage(0)}>
               <span>Home</span>
