@@ -5,7 +5,13 @@ const Vision = () => {
     <section className="vision scroll">
       <div className="inner">
         {/* 1년 목표, 3년후 목표, 5년후 목표 */}
-        <h2>Vision</h2>
+        <h2
+          className="vision-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          VISION
+        </h2>
         <div className="contents">
           <ul className="vision-list">
             <li>1년후 :</li>

@@ -12,8 +12,14 @@ const Portfolio = () => {
     <section className="portfolio scroll">
       <div className="inner">
         {/* 개발 담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 -> 프론트)) */}
-        <h2 data-aos="fade-up">Portfolio</h2>
-        <div className="contents">
+        <h2
+          className="portfolio-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          PORTFOLIO
+        </h2>
+        <div className="contents" data-aos="fade-up" data-aos-duration="1000">
           {/* 팀 프로젝트 */}
           <div className="portfolio-box">
             <h3>Team Project</h3>

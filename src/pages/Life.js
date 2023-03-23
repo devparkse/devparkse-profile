@@ -5,7 +5,9 @@ const Life = () => {
   return (
     <section className="life scroll">
       <div className="inner">
-        <h2>Life</h2>
+        <h2 className="life-title" data-aos="fade-up" data-aos-duration="1000">
+          LIFE
+        </h2>
         <div className="contents">
           {/* 나의 대외활동, 회사 대표가 바라는 인재상 */}
           <ul className="life-list">

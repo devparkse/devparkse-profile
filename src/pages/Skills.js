@@ -6,22 +6,25 @@ const Skills = () => {
     <section className="skills scroll">
       <div className="inner">
         {/* 기술적 역량 : 기술적 내용설명, 자격증, 운전면허 등.. */}
-        <h2>Skills</h2>
+        <h2 className="skills-title" data-aos="fade-up" data-aos-duration="1000">
+          SKILLS
+        </h2>
         <div className="contents">
           <ul className="skills-list">
             <li>
               <img
-                src={`${path}/images/skill-html.png`}
+                src={`${path}/images/html.png`}
                 // src="/images/skill-html.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
                 data-aos-delay="300"
               />
+              <p>HTML</p>
             </li>
             <li>
               <img
-                src={`${path}/images/skill-css.png`}
+                src={`${path}/images/css.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -30,7 +33,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-js.png`}
+                src={`${path}/images/js.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -39,7 +42,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-react.png`}
+                src={`${path}/images/react.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -48,7 +51,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-git.png`}
+                src={`${path}/images/github.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -57,7 +60,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-redux.png`}
+                src={`${path}/images/redux.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -66,7 +69,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-figma.png`}
+                src={`${path}/images/figma.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -75,7 +78,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-type.png`}
+                src={`${path}/images/ts.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -84,11 +87,38 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src={`${path}/images/skill-sass.png`}
+                src={`${path}/images/sass.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
                 data-aos-delay="1100"
+              />
+            </li>
+            <li>
+              <img
+                src={`${path}/images/bootstrap.png`}
+                alt="skill"
+                data-aos="fade-up"
+                data-aos-duration="300"
+                data-aos-delay="1200"
+              />
+            </li>
+            <li>
+              <img
+                src={`${path}/images/styled-components.png`}
+                alt="skill"
+                data-aos="fade-up"
+                data-aos-duration="300"
+                data-aos-delay="1300"
+              />
+            </li>
+            <li>
+              <img
+                src={`${path}/images/tailwind.png`}
+                alt="skill"
+                data-aos="fade-up"
+                data-aos-duration="300"
+                data-aos-delay="1400"
               />
             </li>
           </ul>
