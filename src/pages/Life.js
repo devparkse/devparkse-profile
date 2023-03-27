@@ -12,16 +12,16 @@ const Life = () => {
           {/* 나의 대외활동, 회사 대표가 바라는 인재상 */}
           <ul className="life-list">
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/hanriver.jpeg`} alt="hanriver" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/hongkong.png`} alt="hongkong" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/jeju.jpeg`} alt="jeju" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/pump.png`} alt="pump" />
             </li>
             <li>
               <img src={`${path}/images/life.png`} alt="life" />
