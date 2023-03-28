@@ -9,31 +9,42 @@ const Profile = () => {
         <h2 className="about-me" data-aos="fade-up" data-aos-duration="1000">
           ABOUT ME
         </h2>
-        <p className="about-title" data-aos="fade-up" data-aos-duration="1000">
+        <p
+          className="about-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           "저는 열린 사고로 협업하는{" "}
           <span
             className="title-name"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="200"
           >
             박시은
           </span>{" "}
           입니다."
         </p>
-        <div
-          className="contents"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="300"
-        >
-          <div className="profile-box-left">
+        <div className="contents">
+          <div
+            className="profile-box-left"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <img
               src={`${path}/images/visual.png`}
               alt="profile"
               className="profile-img"
             />
           </div>
-          <div className="profile-box-right">
+          <div
+            className="profile-box-right"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <div className="profile-desc">
               <p className="desc-title">함께 일하고 싶은 동료가 되기 위해</p>
               <p>개발자는 혼자 일하지 않고 협업을 베이스로 일을 합니다.</p>
