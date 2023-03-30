@@ -43,6 +43,9 @@ const Header = ({ setPage, setOpen, open }) => {
             <li onClick={() => setPage(5)}>
               <span>Vision</span>
             </li>
+            <li onClick={() => setPage(6)}>
+              <span>Contact</span>
+            </li>
           </ul>
           <span
             className="mobile-bt"

@@ -1,7 +1,8 @@
-.vision {
-  margin-bottom: 110px;
+.contact {
   .inner {
-    .vision-title {
+    height: 100%;
+    padding-bottom: 80px;
+    .contact-title {
       position: relative;
       display: flex;
       align-items: center;
@@ -18,18 +19,25 @@
       }
     }
     .contents {
-      .vision-list {
+      .contact-list {
         display: flex;
-        justify-content: space-between;
+        gap: 15px;
+        justify-content: center;
         align-items: center;
+        li {
+          margin-bottom: 20px;
+          img {
+            width: 70px;
+            height: 70px;
+            transition: all 0.2s ease-in-out;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
       }
-      .vision-box {
-        width: 300px;
-        height: 200px;
-        padding: 20px;
-        border-radius: 20px;
-        background-color: #fff;        
-        box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.2);
+      p {
+        text-align: center;
       }
     }
   }
@@ -43,7 +51,7 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .vision-list {
+  .contact-list {
     flex-wrap: wrap;
   }
 }

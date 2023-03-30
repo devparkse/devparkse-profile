@@ -14,9 +14,18 @@ const Vision = () => {
         </h2>
         <div className="contents">
           <ul className="vision-list">
-            <li>1년후 :</li>
-            <li>3년후 :</li>
-            <li>5년후 :</li>
+            <li className="vision-box">
+              <h1>1년후 :</h1>
+              <p>내용</p>
+            </li>
+            <li className="vision-box">
+              <h1>3년후 :</h1>
+              <p>내용</p>
+            </li>
+            <li className="vision-box">
+              <h1>5년후 :</h1>
+              <p>내용</p>
+            </li>
           </ul>
         </div>
       </div>

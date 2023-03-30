@@ -37,7 +37,7 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <div className="portfolio-left">
-                <video controls autoplay name="media">
+                <video controls autoPlay name="media">
                   <source
                     src="https://user-images.githubusercontent.com/103413040/223362125-f9ffb27c-29b4-45b3-b91c-d050722efeec.mp4"
                     type="video/mp4"

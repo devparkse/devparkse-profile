@@ -13,6 +13,7 @@ import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Life from "./pages/Life";
 import Vision from "./pages/Vision";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import GoTop from "./components/GoTop";
 import MobileMenu from "./components/MobileMenu";
@@ -90,6 +91,7 @@ const App = () => {
         <Portfolio />
         <Life />
         <Vision />
+        <Contact/>
       </div>
       <Footer />
     </div>

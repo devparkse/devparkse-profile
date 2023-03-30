@@ -52,6 +52,14 @@ const MobileMenu = ({ setPage, open, setOpen }) => {
         >
           <span>Vision</span>
         </li>
+        <li
+          onClick={() => {
+            setPage(6);
+            setOpen(false);
+          }}
+        >
+          <span>Contact</span>
+        </li>
       </ul>
     </div>
   );
