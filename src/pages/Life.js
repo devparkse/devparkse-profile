@@ -24,16 +24,16 @@ const Life = () => {
               <img src={`${path}/images/pump.png`} alt="pump" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/theater.jpeg`} alt="theater" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/eworld.jpeg`} alt="eworld" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/aquarium.jpeg`} alt="aquarium" />
             </li>
             <li>
-              <img src={`${path}/images/life.png`} alt="life" />
+              <img src={`${path}/images/bird.gif`} alt="life" />
             </li>
           </ul>
         </div>
