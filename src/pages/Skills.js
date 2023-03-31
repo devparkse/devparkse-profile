@@ -60,8 +60,8 @@ const Skills = () => {
               data-aos-duration="500"
               data-aos-delay="1000"
             >
-              <img src={`${path}/images/sass.png`} alt="skill" />
-              <p>Sass</p>
+              <img src={`${path}/images/scss.png`} alt="skill" />
+              <p>Scss</p>
             </li>
             <li
               data-aos="fade-up"

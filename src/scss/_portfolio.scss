@@ -140,16 +140,89 @@
           }
         }
         .portfolio-slide {
-          .swiper-button-next,
           .swiper-button-prev {
-            color: #fff !important;
+            width: 65px;
+            height: 65px;
+            padding-right: 6px;
+            color: #fff;
+            border-radius: 50%;
+            background: #f57584;
+            opacity: 0.5;
+            &:hover {
+              opacity: 1;
+              transition: all 0.1s ease-in-out;
+            }
           }
-          a {
+          .swiper-button-next {
+            width: 65px;
+            height: 65px;
+            padding-left: 6px;
+            color: #fff;
+            border-radius: 50%;
+            background: #f57584;
+            opacity: 0.5;
+            &:hover {
+              opacity: 1;
+              transition: all 0.1s ease-in-out;
+            }
+          }
+          .pro-study-wrap {
             display: block;
             width: 100%;
             text-align: center;
             img {
               width: 100%;
+              height: 255px;
+            }
+            &:hover .pro-study-desc {
+              display: block;
+              opacity: 1;
+            }
+          }
+          .pro-study-desc {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            .study-title {
+              margin: 20px 0 18px;
+              font-size: 32px;
+              font-weight: 500;
+            }
+            .skill-wrap {
+              display: flex;
+              justify-content: center;
+              gap: 10px;
+              margin-bottom: 33px;
+              span {
+                padding: 3px 8px;
+                font-size: 16px;
+                font-weight: 500;
+                color: #f57584;
+                background: #fff;
+                border-radius: 15px;
+              }
+            }
+            .btn-wrap {
+              display: flex;
+              justify-content: center;
+              gap: 16px;
+              a {
+                .shortcut-btn {
+                  padding: 5px 10px;
+                  font-size: 18px;
+                  font-weight: 500;
+                  color: #fff;
+                  background: #f57584;
+                }
+              }
             }
           }
         }

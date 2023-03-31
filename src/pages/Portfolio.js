@@ -285,64 +285,319 @@ const Portfolio = () => {
               className="portfolio-slide"
             >
               <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <div className="pro-study-wrap">
+                  <img src={`${path}/images/portfolio.png`} alt="portfolio" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">개인 포트폴리오 제작</p>
+                    <div className="skill-wrap">
+                      <span>HTML</span>
+                      <span>Scss</span>
+                      <span>React</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://devparkse-profile.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="portfolio-app"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/devparkse-profile"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="portfolio-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <div className="pro-study-wrap">
+                  <img src={`${path}/images/todolist.png`} alt="todolist" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">TodoList App</p>
+                    <div className="skill-wrap">
+                      <span>Firebase</span>
+                      <span>Redux-Thunk</span>
+                      <span>TypeScript</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://ts-todo-five.vercel.app/login"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="todolist-app"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/ts-todo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="todolist-app-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <div className="pro-study-wrap">
+                  <img
+                    src={`${path}/images/wonderplace.png`}
+                    alt="wonderplace"
+                  />
+                  <div className="pro-study-desc">
+                    <p className="study-title">원더플레이스 클론코딩</p>
+                    <div className="skill-wrap">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://wonderplace-clone.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="wonderplace-clone"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/wonderplace-clone"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="wonderplace-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                      <a
+                        href="https://wonderplace.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="wonderplace-origin"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-chrome"></i>
+                          &nbsp; Origin
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <div className="pro-study-wrap">
+                  <img
+                    src={`${path}/images/hyundaigroup.png`}
+                    alt="hyundaigroup"
+                  />
+                  <div className="pro-study-desc">
+                    <p className="study-title">현대그룹 클론코딩</p>
+                    <div className="skill-wrap">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://hyundai-clone.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="hyundaigroup-clone"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/hyundai-clone"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="hyundaigroup-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                      <a
+                        href="https://www.hyundaigroup.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="hyundaigroup-origin"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-chrome"></i>
+                          &nbsp; Origin
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <div className="pro-study-wrap">
+                  <img src={`${path}/images/hansalim.png`} alt="hansalim" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">한살림 클론코딩</p>
+                    <div className="skill-wrap">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://hansalim.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="hansalim-clone"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/hansalim"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="hansalim-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                      <a
+                        href="https://shop.hansalim.or.kr/shopping/spMain.do"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="hansalim-origin"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-chrome"></i>
+                          &nbsp; Origin
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <div className="pro-study-wrap">
+                  <img
+                    src={`${path}/images/dosiraktong.png`}
+                    alt="dosiraktong"
+                  />
+                  <div className="pro-study-desc">
+                    <p className="study-title">도시락통 클론코딩</p>
+                    <div className="skill-wrap">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://devparkse.github.io/dosiraktong/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="dosiraktong-clone"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/dosiraktong"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="dosiraktong-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                      <a
+                        href="https://dosiraktong.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="dosiraktong-origin"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-chrome"></i>
+                          &nbsp; Origin
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="pro-study-wrap">
+                  <img src={`${path}/images/stx.png`} alt="stx" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">STX건설 클론코딩</p>
+                    <div className="skill-wrap">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://stx-sable.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="stx-clone"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/stx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="stx-github"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                      <a
+                        href="http://www.stxconst.co.kr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="stx-origin"
+                      >
+                        <span className="shortcut-btn">
+                          <i class="fa-brands fa-chrome"></i>
+                          &nbsp; Origin
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </div>
