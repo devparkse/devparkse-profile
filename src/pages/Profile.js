@@ -34,7 +34,7 @@ const Profile = () => {
             data-aos-delay="300"
           >
             <img
-              src={`${path}/images/visual.png`}
+              src={`${path}/images/profile.png`}
               alt="profile"
               className="profile-img"
             />

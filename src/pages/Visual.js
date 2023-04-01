@@ -17,7 +17,7 @@ const Visual = () => {
             <b className="visual-name">프론트엔드 개발자 박시은</b>입니다.
           </p>
         </div>
-        <img src={`${path}/images/visual.png`} alt="visual" />
+        {/* <img src={`${path}/images/비주얼.png`} alt="visual" /> */}
         {/* <img src="/images/visual.png" alt="visual" /> */}
       </div>
     </div>
