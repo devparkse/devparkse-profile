@@ -11,7 +11,6 @@
     align-items: center;
     z-index: 99;
     .visual-intro {
-      margin-right: 50px;
       padding-bottom: 200px;
       line-height: 80px;
       font-size: 40px;
@@ -42,5 +41,30 @@
     //   height: 100%;
     //   object-fit: cover;
     // }
+  }
+}
+// 데스크탑
+@media screen and (max-width: $desktop) {
+}
+// 타블렛
+@media screen and (max-width: $tablet) {
+  .visual {
+    background: url("../../public/images/tablet_visual.png") no-repeat center;
+    background-size: cover;
+  }
+  .visual-intro {
+    font-size: 30px !important;
+    .visual-txt {
+      font-size: 30px !important;
+    }
+  }
+}
+// 모바일
+@media screen and (max-width: $mp) {
+  .profile .contents {
+    flex-wrap: wrap !important;
+    .profile-box {
+      width: 100% !important;
+    }
   }
 }
