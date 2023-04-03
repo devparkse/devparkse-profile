@@ -68,6 +68,12 @@
               width: 100%;
             }
           }
+          &.active span {
+            color: #f57584;
+            &::after {
+              width: 100%;
+            }
+          }
         }
       }
       .mobile-bt {

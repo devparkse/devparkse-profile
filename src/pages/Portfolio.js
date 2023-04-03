@@ -313,7 +313,7 @@ const Portfolio = () => {
                         alt="portfolio-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                     </div>
@@ -349,7 +349,7 @@ const Portfolio = () => {
                         alt="todolist-app-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                     </div>
@@ -388,7 +388,7 @@ const Portfolio = () => {
                         alt="wonderplace-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                       <a
@@ -398,7 +398,7 @@ const Portfolio = () => {
                         alt="wonderplace-origin"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-chrome"></i>
+                          <i className="fa-brands fa-chrome"></i>
                           &nbsp; Origin
                         </span>
                       </a>
@@ -438,7 +438,7 @@ const Portfolio = () => {
                         alt="hyundaigroup-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                       <a
@@ -448,7 +448,7 @@ const Portfolio = () => {
                         alt="hyundaigroup-origin"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-chrome"></i>
+                          <i className="fa-brands fa-chrome"></i>
                           &nbsp; Origin
                         </span>
                       </a>
@@ -485,7 +485,7 @@ const Portfolio = () => {
                         alt="hansalim-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                       <a
@@ -495,7 +495,7 @@ const Portfolio = () => {
                         alt="hansalim-origin"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-chrome"></i>
+                          <i className="fa-brands fa-chrome"></i>
                           &nbsp; Origin
                         </span>
                       </a>
@@ -535,7 +535,7 @@ const Portfolio = () => {
                         alt="dosiraktong-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                       <a
@@ -545,7 +545,7 @@ const Portfolio = () => {
                         alt="dosiraktong-origin"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-chrome"></i>
+                          <i className="fa-brands fa-chrome"></i>
                           &nbsp; Origin
                         </span>
                       </a>
@@ -581,7 +581,7 @@ const Portfolio = () => {
                         alt="stx-github"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-github"></i>&nbsp; GitHub
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
                         </span>
                       </a>
                       <a
@@ -591,7 +591,7 @@ const Portfolio = () => {
                         alt="stx-origin"
                       >
                         <span className="shortcut-btn">
-                          <i class="fa-brands fa-chrome"></i>
+                          <i className="fa-brands fa-chrome"></i>
                           &nbsp; Origin
                         </span>
                       </a>

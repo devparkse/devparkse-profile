@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import Anime from "../assets/Anime";
+import { useState } from "react";
 
 const Header = ({ setPage, setOpen, open }) => {
   const path = process.env.PUBLIC_URL;
@@ -12,6 +13,10 @@ const Header = ({ setPage, setOpen, open }) => {
     });
     setPage(0);
   };
+
+  // 현재 active인 메뉴의 인덱스
+  const [activeIndex, setActiveIndex] = useState(0);
+
   return (
     <header className="header">
       <div className="inner">
@@ -25,25 +30,67 @@ const Header = ({ setPage, setOpen, open }) => {
             <span className="header-txt">&nbsp;Park Sieun</span>
           </div>
           <ul className="gnb">
-            <li onClick={() => setPage(0)}>
+            <li
+              onClick={() => {
+                setPage(0);
+                setActiveIndex(0);
+              }}
+              className={activeIndex === 0 ? "active" : ""}
+            >
               <span>Home</span>
             </li>
-            <li onClick={() => setPage(1)}>
+            <li
+              onClick={() => {
+                setPage(1);
+                setActiveIndex(1);
+              }}
+              className={activeIndex === 1 ? "active" : ""}
+            >
               <span>Profile</span>
             </li>
-            <li onClick={() => setPage(2)}>
+            <li
+              onClick={() => {
+                setPage(2);
+                setActiveIndex(2);
+              }}
+              className={activeIndex === 2 ? "active" : ""}
+            >
               <span>Skills</span>
             </li>
-            <li onClick={() => setPage(3)}>
+            <li
+              onClick={() => {
+                setPage(3);
+                setActiveIndex(3);
+              }}
+              className={activeIndex === 3 ? "active" : ""}
+            >
               <span>Portfolio</span>
             </li>
-            <li onClick={() => setPage(4)}>
+            <li
+              onClick={() => {
+                setPage(4);
+                setActiveIndex(4);
+              }}
+              className={activeIndex === 4 ? "active" : ""}
+            >
               <span>Life</span>
             </li>
-            <li onClick={() => setPage(5)}>
+            <li
+              onClick={() => {
+                setPage(5);
+                setActiveIndex(5);
+              }}
+              className={activeIndex === 5 ? "active" : ""}
+            >
               <span>Vision</span>
             </li>
-            <li onClick={() => setPage(6)}>
+            <li
+              onClick={() => {
+                setPage(6);
+                setActiveIndex(6);
+              }}
+              className={activeIndex === 6 ? "active" : ""}
+            >
               <span>Contact</span>
             </li>
           </ul>

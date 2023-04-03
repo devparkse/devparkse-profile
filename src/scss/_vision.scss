@@ -24,12 +24,26 @@
         align-items: center;
       }
       .vision-box {
-        width: 300px;
-        height: 200px;
+        position: relative;
+        width: 420px;
+        height: 300px;
         padding: 20px;
+        margin-top: 90px;
         border-radius: 20px;
         background-color: #fff;        
         box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.2);
+        &::after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translate(-50%, -50%);
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          background-color: #f57584;
+          // background: url("../images/icoRating.png") no-repeat;
+        }
       }
     }
   }
