@@ -10,7 +10,7 @@ const Visual = () => {
         <div className="visual-intro">
           <p>안녕하세요 : )</p>
           <p>
-            새로운 것에 대한 <b>도전정신</b>과<br />
+            <b>끊임없이 도전</b>하고 <b>꾸준히 성장</b>하는<br />
             원활한 <b>의사소통 능력</b>을 가진
           </p>
           <p className="visual-txt">
