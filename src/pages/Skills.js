@@ -21,15 +21,18 @@ const Skills = () => {
                 // src="/images/skill-html.png"
                 alt="skill"
               />
-              <p>HTML</p>
+              <p className="skill-txt">HTML</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
               <img src={`${path}/images/css.png`} alt="skill" />
-              <p>CSS</p>
+              <p className="skill-txt">CSS</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
               <img src={`${path}/images/js.png`} alt="skill" />
-              <p>JavaScript</p>
+              <p className="skill-txt">JavaScript</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
               <img
@@ -37,7 +40,8 @@ const Skills = () => {
                 src={`${path}/images/react.png`}
                 alt="skill"
               />
-              <p>React</p>
+              <p className="skill-txt">React</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="700">
               <img
@@ -45,15 +49,18 @@ const Skills = () => {
                 src={`${path}/images/redux.png`}
                 alt="skill"
               />
-              <p>Redux</p>
+              <p className="skill-txt">Redux</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="800">
               <img src={`${path}/images/ts.png`} alt="skill" />
-              <p>TypeScript</p>
+              <p className="skill-txt">TypeScript</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="900">
               <img src={`${path}/images/github.png`} alt="skill" />
-              <p>GitHub</p>
+              <p className="skill-txt">GitHub</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li
               data-aos="fade-up"
@@ -61,7 +68,8 @@ const Skills = () => {
               data-aos-delay="1000"
             >
               <img src={`${path}/images/scss.png`} alt="skill" />
-              <p>Scss</p>
+              <p className="skill-txt">Scss</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li
               data-aos="fade-up"
@@ -69,7 +77,8 @@ const Skills = () => {
               data-aos-delay="1100"
             >
               <img src={`${path}/images/styled-components.png`} alt="skill" />
-              <p>styled-components</p>
+              <p className="skill-txt">styled-components</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li
               data-aos="fade-up"
@@ -81,7 +90,8 @@ const Skills = () => {
                 src={`${path}/images/tailwind.png`}
                 alt="skill"
               />
-              <p>Tailwind CSS</p>
+              <p className="skill-txt">Tailwind CSS</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li
               data-aos="fade-up"
@@ -89,7 +99,8 @@ const Skills = () => {
               data-aos-delay="1300"
             >
               <img src={`${path}/images/figma.png`} alt="skill" />
-              <p>Figma</p>
+              <p className="skill-txt">Figma</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
             <li
               data-aos="fade-up"
@@ -97,7 +108,8 @@ const Skills = () => {
               data-aos-delay="1400"
             >
               <img src={`${path}/images/bootstrap.png`} alt="skill" />
-              <p>Bootstrap</p>
+              <p className="skill-txt">Bootstrap</p>
+              <p className="hover-txt">상세 내용</p>
             </li>
           </ul>
         </div>
