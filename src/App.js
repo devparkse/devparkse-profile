@@ -82,7 +82,7 @@ const App = () => {
       <GoTop />
       {/* 7. page 변경 props 전달 */}
       <Header setPage={setPage} setOpen={setOpen} open={open} />
-      <MobileMenu setPage={setPage} open={open} />
+      <MobileMenu setPage={setPage} setOpen={setOpen} open={open} />
 
       <div className="container">
         <Visual />
@@ -91,7 +91,7 @@ const App = () => {
         <Portfolio />
         <Life />
         <Vision />
-        <Contact/>
+        <Contact />
       </div>
       <Footer />
     </div>
