@@ -27,8 +27,10 @@ const Vision = () => {
               </h1>
               <p className="vision-desc">
                 기초를 탄탄히 다지고, 언어나 프레임워크 등 개발에 필요한 기술
-                스택을 익히겠습니다.<br/>선배 및 동료의 장점을 본받고 기술을
-                보완하여 성장하는 개발자가 되겠습니다.
+                스택을 익히겠습니다.
+                <br />
+                선배 및 동료의 장점을 본받고 기술을 보완하여 성장하는 개발자가
+                되겠습니다.
               </p>
             </li>
             <li
@@ -39,9 +41,15 @@ const Vision = () => {
             >
               <img src="/images/vision_2.png" alt="vision-2" />
               <h1 className="vision-subtitle">
-                <b className="years">3년 후</b>
+                <b className="years">3년 후</b> 자기 주도적인 학습이 가능하고
+                깊은 기술 이해와 경험을 쌓은 개발자
               </h1>
-              <p className="vision-desc">내용</p>
+              <p className="vision-desc">
+                새로운 기술과 트렌드를 놓치지 않고 학습하여 적용하는 능력을
+                강화하겠습니다.
+                <br /> 또 자신의 업무와 조직 내에서의 역할과 책임에 대한
+                이해도를 높이겠습니다.
+              </p>
             </li>
             <li
               className="vision-box"
@@ -51,9 +59,14 @@ const Vision = () => {
             >
               <img src="/images/vision_3.png" alt="vision-3" />
               <h1 className="vision-subtitle">
-                <b className="years">5년 후</b>
+                <b className="years">5년 후</b> 현재에 안주하지 않고 늘 배우며
+                계속해서 업그레이드되는 개발자
               </h1>
-              <p className="vision-desc">내용</p>
+              <p className="vision-desc">
+                기업의 비즈니스 목표에 맞춰 다양한 기술 스택을 융합하여 최적의
+                아키텍처를 설계하고 개발할 수 있는 개발자가 되겠습니다. 코드의
+                품질을 높이고 유지 보수성을 향상시킬 수 있도록 하겠습니다.
+              </p>
             </li>
           </ul>
         </div>
