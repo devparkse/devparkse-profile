@@ -28,9 +28,10 @@
         width: 420px;
         height: 300px;
         padding: 20px;
+        padding-top: 70px;
         margin-top: 90px;
         border-radius: 20px;
-        background-color: #fff;        
+        background-color: #fff;
         box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.2);
         &::after {
           content: "";
@@ -38,11 +39,33 @@
           left: 50%;
           top: 0;
           transform: translate(-50%, -50%);
-          width: 120px;
-          height: 120px;
+          width: 100px;
+          height: 100px;
           border-radius: 50%;
           background-color: #f57584;
-          // background: url("../images/icoRating.png") no-repeat;
+        }
+        img {
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translate(-50%, -50%);
+          width: 85px;
+          height: 85px;
+          padding: 5px;
+          background-color: #fff;
+          border-radius: 50%;
+          z-index: 9;
+        }
+        .vision-subtitle {
+          margin-bottom: 10px;
+          .years {
+            color: #f57584;
+            font-size: 26px;
+          }
+        }
+        .vision-desc {
+          font-size: 18px;
+          line-height: 26px;
         }
       }
     }

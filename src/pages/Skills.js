@@ -21,13 +21,19 @@ const Skills = () => {
                 // src="/images/skill-html.png"
                 alt="skill"
               />
-              <p className="skill-txt">HTML</p>
-              <p className="hover-txt">상세 내용</p>
+              <p className="skill-txt">HTML5</p>
+              <p className="hover-txt">
+                웹접근성을 개선하는 등 시맨틱 마크업 작업을 통해 검색 엔진
+                최적화(SEO)를 개선할 수 있습니다.
+              </p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
               <img src={`${path}/images/css.png`} alt="skill" />
-              <p className="skill-txt">CSS</p>
-              <p className="hover-txt">상세 내용</p>
+              <p className="skill-txt">CSS3</p>
+              <p className="hover-txt">
+                주어진 디자인에 따라 레이아웃을 구성할 수 있습니다. 인터랙션 CSS
+                작업과 반응형 웹 디자인이 가능합니다.
+              </p>
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
               <img src={`${path}/images/js.png`} alt="skill" />
