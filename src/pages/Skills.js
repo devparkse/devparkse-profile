@@ -40,7 +40,7 @@ const Skills = () => {
               <p className="skill-txt">JavaScript</p>
               <p className="hover-txt">
                 ES6를 꾸준히 학습함으로써 새로운 기술과 개선된 문법을 사용하여
-                개발 생산성을 높일 수 있습니다. React 와 같은 JavaScript
+                개발 생산성을 높이려 노력합니다. React 와 같은 JavaScript
                 라이브러리를 사용할 수 있습니다.
               </p>
             </li>
@@ -121,6 +121,15 @@ const Skills = () => {
               data-aos-duration="500"
               data-aos-delay="1200"
             >
+              <img src={`${path}/images/antd.png`} alt="skill" />
+              <p className="skill-txt">Ant Design</p>
+              <p className="hover-txt"></p>
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="1300"
+            >
               <img
                 className="tailwind-icon"
                 src={`${path}/images/tailwind.png`}
@@ -137,7 +146,7 @@ const Skills = () => {
             <li
               data-aos="fade-up"
               data-aos-duration="500"
-              data-aos-delay="1300"
+              data-aos-delay="1400"
             >
               <img src={`${path}/images/figma.png`} alt="skill" />
               <p className="skill-txt">Figma</p>
@@ -145,20 +154,6 @@ const Skills = () => {
                 디자인에 맞게 와이어 프레임을 구성할 수 있습니다. 팀원들과
                 동시에 작업할 수 있어 팀원 간의 협업이 용이해지며 디자인 작업의
                 생산성을 높일 수 있음을 알고 있습니다.
-              </p>
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="500"
-              data-aos-delay="1400"
-            >
-              <img src={`${path}/images/bootstrap.png`} alt="skill" />
-              <p className="skill-txt">Bootstrap</p>
-              <p className="hover-txt">
-                Bootstrap에서 제공하는 네비게이션, 드롭다운, 모달 등 다양한 UI
-                컴포넌트를 적절히 사용하여 디자인 작업의 생산성을 높일 수
-                있습니다. 레이아웃, 버튼, 폼 등 다양한 디자인 요소를 빠르게
-                구축할 수 있습니다.
               </p>
             </li>
           </ul>
