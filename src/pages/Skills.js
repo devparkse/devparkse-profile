@@ -40,7 +40,7 @@ const Skills = () => {
               <p className="skill-txt">JavaScript</p>
               <p className="hover-txt">
                 ES6를 꾸준히 학습함으로써 새로운 기술과 개선된 문법을 사용하여
-                개발 생산성을 높이려 노력합니다. React 와 같은 JavaScript
+                개발 생산성을 높이려 노력합니다. React와 같은 JavaScript
                 라이브러리를 사용할 수 있습니다.
               </p>
             </li>
@@ -52,7 +52,7 @@ const Skills = () => {
               />
               <p className="skill-txt">React</p>
               <p className="hover-txt">
-                useState, useEffect 와 같은 Hook 을 사용하여 상태 관리 및
+                useState, useEffect와 같은 Hook 을 사용하여 상태 관리 및
                 컴포넌트에서 발생하는 다양한 이벤트에 대한 작업을 수행할 수
                 있습니다. Axios를 사용하여 API 서버로 요청을 보내고 받은 응답
                 데이터를 처리할 수 있습니다.
