@@ -28,7 +28,7 @@ const Portfolio = () => {
               data-aos-duration="1000"
               data-aos-delay="100"
             >
-              TEAM PROJECT
+              TEAM PROJECT(feat. Spring-Boot)
             </h3>
             <div
               className="portfolio-team"
@@ -50,23 +50,23 @@ const Portfolio = () => {
                     우리의 꿈을 'Green' 문고
                   </li>
                   <li className="project-desc">
-                    데이터 통신 및 출력하여 화면을 구성함으로써 교보문고
-                    웹페이지의 기능 일부 구현
+                    REST API 연동을 통해 데이터를 출력하여 화면을 구성함으로써
+                    교보문고 웹페이지의 기능 일부 구현
                   </li>
                   <li className="project-txt">
-                    프론트엔드 & 백엔드 협업 미니 프로젝트
+                    프론트엔드 & 백엔드(Spring-Boot) 협업 미니 프로젝트
                     <br />
                     2022. 12. 16 ~ 2022. 12. 22
                   </li>
                   <li>
-                    담당한 부분
+                    <i class="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     - 헤더의 각 아이콘 클릭시 해당 페이지로 이동
                     <br />- 구매 바 수량, 가격 연동
                     <br />- 로그인 페이지 UI
                   </li>
                   <li className="tech-stack">
-                    JavaScript, React, Axios, styled-components
+                    React, JavaScript, Axios, styled-components
                   </li>
                 </ul>
                 <div className="shortcut-icon">
@@ -86,6 +86,14 @@ const Portfolio = () => {
                   >
                     <img src={`${path}/images/youtube.png`} alt="youtube" />
                   </a>
+                  <a
+                    href="https://www.figma.com/file/fQCMkDVtGNhYrwtVxiRWVq/KYOBO?node-id=0-1&t=RB9Iw0RUJFJZiZQv-0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    alt="figma"
+                  >
+                    <img src={`${path}/images/figma_rounded.png`} alt="figma" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -99,7 +107,7 @@ const Portfolio = () => {
                 <iframe
                   src="https://www.youtube.com/embed/h9yIKvujfy4"
                   title="담화마켓 프로젝트"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
@@ -109,19 +117,19 @@ const Portfolio = () => {
                   <li className="pro-damhwa project-name">담화마켓</li>
                   <li className="project-desc">전통주 배달 주문 서비스</li>
                   <li className="project-txt">
-                    프론트엔드 & 백엔드 협업 1차 프로젝트
+                    프론트엔드 & 백엔드(Spring-Boot) 협업 1차 프로젝트
                     <br />
                     2023. 01. 11 ~ 2023. 02. 03
                   </li>
                   <li>
-                    담당한 부분
+                    <i class="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     - 전체 제품 출력, 제품 상세페이지 구현, 장바구니 추가
                     <br />- 장바구니 페이지 수량 변경, 삭제, 총가격 연동
                     <br />- Review 등록, 삭제, 출력
                   </li>
                   <li className="tech-stack">
-                    JavaScript, React, React-Query, Axios, react-router-dom,
+                    React, JavaScript, React-Query, Axios, react-router-dom,
                     <br />
                     react-spinners, Tailwind CSS
                   </li>
@@ -143,6 +151,14 @@ const Portfolio = () => {
                   >
                     <img src={`${path}/images/youtube.png`} alt="youtube" />
                   </a>
+                  <a
+                    href="https://www.figma.com/file/h7zbpIdJ5PwkFmZbUmIicP/Untitled?node-id=0-1&t=ucuf80njnXFPe33k-0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    alt="figma"
+                  >
+                    <img src={`${path}/images/figma_rounded.png`} alt="figma" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -156,7 +172,7 @@ const Portfolio = () => {
                 <iframe
                   src="https://www.youtube.com/embed/zYGsGXkdSHo"
                   title="허니머니 프로젝트(커플 가계부)"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
@@ -168,12 +184,12 @@ const Portfolio = () => {
                     똑똑한 연애의 시작, 커플 가계부
                   </li>
                   <li className="project-txt">
-                    프론트엔드 & 백엔드 협업 2차 프로젝트
+                    프론트엔드 & 백엔드(Spring-Boot) 협업 2차 프로젝트
                     <br />
                     2023. 02. 06 ~ 2023. 03. 02
                   </li>
                   <li>
-                    담당한 부분
+                    <i class="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     &bull; 캘린더
                     <br />
@@ -182,7 +198,7 @@ const Portfolio = () => {
                     &nbsp;- 수입 & 지출 등록(이미지 등록), 수정, 삭제 기능
                   </li>
                   <li className="tech-stack">
-                    JavaScript, React, Axios, react-router-dom, nivo, yup
+                    React, JavaScript, Axios, react-router-dom, nivo, yup,
                     <br />
                     react-hook-form, styled-components, Tailwind CSS
                   </li>
@@ -204,6 +220,14 @@ const Portfolio = () => {
                   >
                     <img src={`${path}/images/youtube.png`} alt="youtube" />
                   </a>
+                  <a
+                    href="https://www.figma.com/file/1om9GIXyQwGvmsribrNYnb/Untitled?node-id=0-1&t=J55LvX1pn3PRW7bH-0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    alt="figma"
+                  >
+                    <img src={`${path}/images/figma_rounded.png`} alt="figma" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -215,38 +239,43 @@ const Portfolio = () => {
             >
               <div className="portfolio-left">
                 <iframe
-                  src="https://www.youtube.com/embed/h9yIKvujfy4"
-                  title="담화마켓 프로젝트"
-                  frameborder="0"
+                  width="1280"
+                  height="720"
+                  src="https://www.youtube.com/embed/qyYassP9MOY"
+                  title="프론트엔드 &amp; 백엔드(Spring-Boot) 협업 3차 프로젝트(NCT 학습관리시스템)"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
+                  allowfullscreen
                 ></iframe>
               </div>
               <div className="portfolio-right">
                 <ul className="portfolio-team-list">
-                  <li className="pro-skycastle project-name">SKY 캐슬</li>
-                  <li className="project-desc">고3 성적 관리</li>
+                  <li className="pro-nct project-name">
+                    NCT 학습관리시스템
+                  </li>
+                  <li className="project-desc">
+                    고등학생을 위한 영어 성적 관리 시스템(LMS)
+                  </li>
                   <li className="project-txt">
-                    프론트엔드 & 백엔드 협업 3차 프로젝트
+                    프론트엔드 & 백엔드(Spring-Boot) 협업 3차 프로젝트
                     <br />
                     2023. 03. 06 ~ 2023. 04. 04
                   </li>
                   <li>
-                    담당한 부분
+                    <i class="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
-                    -
-                    <br />-
-                    <br />-
+                    - 학생용 이번달 성적 조회
+                    <br />- 학생용 올해 성적 조회
                   </li>
                   <li className="tech-stack">
-                    JavaScript, React, Axios, react-router-dom,
+                    TypeScript, React, Axios, react-router-dom,
                     <br />
-                    styled-components,
+                    styled-components, react-icons, nivo, Ant Design
                   </li>
                 </ul>
                 <div className="shortcut-icon">
                   <a
-                    href="https://github.com/devparkse/KyoboBooks"
+                    href="https://github.com/devparkse/nct-lms"
                     target="_blank"
                     rel="noopener noreferrer"
                     alt="github"
@@ -254,12 +283,20 @@ const Portfolio = () => {
                     <img src={`${path}/images/github.png`} alt="github" />
                   </a>
                   <a
-                    href="https://youtu.be/BHf63vyKI0g"
+                    href="https://youtu.be/qyYassP9MOY"
                     target="_blank"
                     rel="noopener noreferrer"
                     alt="youtube"
                   >
                     <img src={`${path}/images/youtube.png`} alt="youtube" />
+                  </a>
+                  <a
+                    href="https://www.figma.com/file/rjXHfPx3BrIU5h6LXoylBS/%EC%84%B1%EC%A0%81%EA%B4%80%EB%A6%AC?node-id=0-1&t=DovXBZD2GeMIy7n3-0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    alt="figma"
+                  >
+                    <img src={`${path}/images/figma_rounded.png`} alt="figma" />
                   </a>
                 </div>
               </div>
