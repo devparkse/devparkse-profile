@@ -123,7 +123,12 @@ const Skills = () => {
             >
               <img src={`${path}/images/antd.png`} alt="skill" />
               <p className="skill-txt">Ant Design</p>
-              <p className="hover-txt"></p>
+              <p className="hover-txt">
+                Form, Radio button, Calendar, Table, DatePicker 등을 구현해 본
+                경험이 있습니다. 프로젝트에 맞게 스타일을 변경하거나 새로운
+                스타일을 적용하여 빠르게 UI를 구현하여 개발 생산성을 높일 수
+                있습니다.
+              </p>
             </li>
             <li
               data-aos="fade-up"
