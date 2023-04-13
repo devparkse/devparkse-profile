@@ -53,7 +53,7 @@
         text-align: center;
         .profile-img {
           width: 100%;
-          height: 100%;
+          height: 620px;
           object-fit: cover;
           border-radius: 10px;
           box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.2);
@@ -128,7 +128,7 @@
               span {
                 font-size: 18px;
               }
-              .pro-sub {                
+              .pro-sub {
                 font-weight: 700;
               }
             }
@@ -139,11 +139,102 @@
   }
 }
 
+@media screen and (max-width: 1470px) {
+  .profile-desc {
+    font-size: 16px !important;
+    line-height: 28px !important;
+    .desc-title {
+      font-size: 18px !important;
+    }
+  }
+  .profile-etc {
+    p {
+      font-size: 16px !important;
+    }
+    .etc-title {
+      font-size: 26px !important;
+    }
+    .edu-title {
+      font-size: 18px !important;
+    }
+  }
+  .profile-link {
+    .link-title {
+      font-size: 26px !important;
+    }
+    .shortcut-icon {
+      img {
+        width: 40px !important;
+        height: 40px !important;
+      }
+      .icon-title {
+        span {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
+  .about-title {
+    font-size: 30px !important;
+  }
+  .profile-etc {
+    p {
+      font-size: 14px !important;
+    }
+    .etc-title {
+      font-size: 24px !important;
+    }
+    .edu-title {
+      font-size: 16px !important;
+    }
+  }
+  .profile-link {
+    .link-title {
+      font-size: 24px !important;
+    }
+    .shortcut-icon {
+      img {
+        width: 30px !important;
+        height: 30px !important;
+      }
+      .icon-title {
+        span {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .profile-link {
+    .link-title {
+      font-size: 22px !important;
+    }
+    .shortcut-icon {
+      img {
+        width: 30px !important;
+        height: 30px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 994px) {
+  .shortcut-icon {
+    gap: 20px !important;
+  }
 }
 // 타블렛
 @media screen and (max-width: $tablet) {
+  .profile-box-left {
+    width: 35% !important;
+  }
+  .profile-box-right {
+    width: 61% !important;
+  }
 }
 // 모바일
 @media screen and (max-width: $mp) {
