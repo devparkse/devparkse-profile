@@ -66,17 +66,64 @@
   }
 }
 
+@media screen and (max-width: 1340px) {
+  .contents {
+    .life-list {
+      li {
+        .img-title {
+          padding: 20px 0px !important;
+          font-size: 30px !important;
+        }
+        .img-desc {
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+}
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
+  .contents {
+    .life-list {
+      li {
+        img,
+        video {
+          height: 286px !important;
+        }
+        .img-hover {
+          left: 14px !important;
+          .img-title {
+            padding: 15px 0 !important;
+            font-size: 30px !important;
+          }
+          .img-desc {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
 }
 // 타블렛
 @media screen and (max-width: $tablet) {
+  .contents {
+    .life-list {
+      li {
+        .img-hover {
+          left: 11px !important;
+          .img-title {
+            padding: 15px 0 !important;
+            font-size: 26px !important;
+          }
+          .img-desc {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .life-list {
-    li {
-      width: 50% !important;
-    }
-  }
 }

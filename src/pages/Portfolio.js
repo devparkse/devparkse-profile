@@ -59,7 +59,7 @@ const Portfolio = () => {
                     2022. 12. 16 ~ 2022. 12. 22
                   </li>
                   <li>
-                    <i class="fa-solid fa-pencil"></i> 담당한 기능
+                    <i className="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     - 헤더의 각 아이콘 클릭시 해당 페이지로 이동
                     <br />- 구매 바 수량, 가격 연동
@@ -122,7 +122,7 @@ const Portfolio = () => {
                     2023. 01. 11 ~ 2023. 02. 03
                   </li>
                   <li>
-                    <i class="fa-solid fa-pencil"></i> 담당한 기능
+                    <i className="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     - 전체 제품 출력, 제품 상세페이지 구현, 장바구니 추가
                     <br />- 장바구니 페이지 수량 변경, 삭제, 총가격 연동
@@ -189,7 +189,7 @@ const Portfolio = () => {
                     2023. 02. 06 ~ 2023. 03. 02
                   </li>
                   <li>
-                    <i class="fa-solid fa-pencil"></i> 담당한 기능
+                    <i className="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     &bull; 캘린더
                     <br />
@@ -245,7 +245,7 @@ const Portfolio = () => {
                   title="프론트엔드 &amp; 백엔드(Spring-Boot) 협업 3차 프로젝트(NCT 학습관리시스템)"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
               <div className="portfolio-right">
@@ -262,7 +262,7 @@ const Portfolio = () => {
                     2023. 03. 06 ~ 2023. 04. 04
                   </li>
                   <li>
-                    <i class="fa-solid fa-pencil"></i> 담당한 기능
+                    <i className="fa-solid fa-pencil"></i> 담당한 기능
                     <br />
                     - 학생용 이번달 성적 조회
                     <br />- 학생용 올해 성적 조회

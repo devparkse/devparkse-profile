@@ -22,6 +22,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 20px;
       }
       .vision-box {
         position: relative;
@@ -72,15 +73,48 @@
   }
 }
 
+@media screen and (max-width: 1340px) {
+  .contents {
+    .vision-box {
+      height: 350px !important;
+    }
+  }
+}
 // 데스크탑
 @media screen and (max-width: $desktop) {
 }
+@media screen and (max-width: 1070px) {
+  .contents {
+    .vision-box {
+      height: 380px !important;
+    }
+  }
+}
 // 타블렛
 @media screen and (max-width: $tablet) {
+  .contents {
+    .vision-list {
+      display: grid !important;
+      grid-template-columns: repeat(1, 1fr) !important;
+      justify-items: center !important;
+    }
+    .vision-box {
+      width: 80% !important;
+      height: 250px !important;
+    }
+  }
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .vision-list {
-    flex-wrap: wrap;
+  .vision-box {
+    width: 80% !important;
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 790px) {
+  .contents {
+    .vision-box {
+      height: 310px !important;
+    }
   }
 }

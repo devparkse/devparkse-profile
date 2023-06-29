@@ -36,12 +36,18 @@ const Contact = () => {
             </li>
             <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
               {/* <a href="" target="_blank" rel="noopener noreferrer" alt="notion"> */}
-                <img style={{cursor: "not-allowed", transform: "none"}} src={`${path}/images/notion.png`} alt="notion" />
+              <img
+                style={{ cursor: "not-allowed", transform: "none" }}
+                src={`${path}/images/notion.png`}
+                alt="notion"
+              />
               {/* </a> */}
             </li>
           </ul>
           <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
-            <i className="fa-regular fa-envelope"></i> &nbsp;pmj8856@naver.com
+            <a href="mailto:pmj8856@naver.com">
+              <i className="fa-regular fa-envelope"></i> &nbsp;pmj8856@naver.com
+            </a>
           </p>
         </div>
       </div>

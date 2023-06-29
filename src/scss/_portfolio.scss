@@ -232,14 +232,24 @@
 
 // 데스크탑
 @media screen and (max-width: $desktop) {
+  .portfolio-left {
+    width: calc(50% - 10px) !important;
+  }
+  .portfolio-right {
+    width: calc(50% - 10px) !important;
+  }
 }
 // 타블렛
 @media screen and (max-width: $tablet) {
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .portfolio-left,
+  .portfolio-left {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
   .portfolio-right {
     width: 100% !important;
+    margin-left: 55px;
   }
 }

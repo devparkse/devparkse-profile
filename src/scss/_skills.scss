@@ -73,15 +73,56 @@
 
 // 데스크탑
 @media screen and (max-width: $desktop) {
+  .contents {
+    .skills-list {
+      li {
+        width: 90% !important;
+        margin-bottom: 15px !important;
+        &:hover img {
+          width: 55% !important;
+          margin-bottom: 20px !important;
+          transition: none !important;
+        }
+        &:hover .skill-txt {
+          font-size: 25px !important;
+          transition: none !important;
+        }
+        &:hover .hover-txt {
+          opacity: 0 !important;
+          transition: none !important;
+        }
+        &:hover .react-icon {
+          width: 62% !important;
+        }
+        &:hover .redux-icon {
+          width: 56% !important;
+        }
+        &:hover .tailwind-icon {
+          width: 60% !important;
+          margin-bottom: 5px !important;
+        }
+      }
+    }
+  }
 }
 // 타블렛
 @media screen and (max-width: $tablet) {
+  .contents {
+    .skills-list {
+      li {
+        width: 100% !important;
+        margin-bottom: 5px !important;
+      }
+    }
+  }
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .skills-list {
-    li {
-      width: 50% !important;
+  .contents {
+    .skills-list {
+      li {
+        margin-bottom: 0px !important;
+      }
     }
   }
 }

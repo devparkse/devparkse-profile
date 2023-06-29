@@ -83,6 +83,7 @@ const Profile = () => {
               <div className="profile-license">
                 <p className="etc-title">License</p>
                 <p>워드프로세서1급</p>
+                <p>정보처리기능사</p>
                 <p>정보기술자격(ITQ) 한글엑셀 A등급</p>
                 <p>정보기술자격(ITQ) 한글액세스 A등급</p>
                 <p>1종보통 운전면허</p>
