@@ -44,7 +44,7 @@ const Contact = () => {
               {/* </a> */}
             </li>
           </ul>
-          <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+          <p>
             <a href="mailto:pmj8856@naver.com">
               <i className="fa-regular fa-envelope"></i> &nbsp;pmj8856@naver.com
             </a>
