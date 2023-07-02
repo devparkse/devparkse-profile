@@ -606,6 +606,7 @@ const Portfolio = () => {
                     <div className="skill-wrap">
                       <span>HTML</span>
                       <span>CSS</span>
+                      <span>JavaScript</span>
                     </div>
                     <div className="btn-wrap">
                       <a
