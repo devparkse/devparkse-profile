@@ -367,6 +367,114 @@ const Portfolio = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="pro-study-wrap">
+                  <img src={`${path}/images/todo.png`} alt="react-todo" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">React Todo App</p>
+                    <div className="skill-wrap">
+                      <span>PostCSS</span>
+                      <span>Context API</span>
+                      <span>React</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://react-todo-pi-tan.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="react-todo"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/react-todo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="react-todo"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="pro-study-wrap">
+                  <img src={`${path}/images/shoppy.png`} alt="shoppy" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">Shopping mall</p>
+                    <div className="skill-wrap">
+                      <span>Firebase</span>
+                      <span>react-query</span>
+                      <span>React</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://shoppy-steel.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="shoppy"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/shoppy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="shoppy"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="pro-study-wrap">
+                  <img src={`${path}/images/yt.png`} alt="youtube" />
+                  <div className="pro-study-desc">
+                    <p className="study-title">Youtube 클론코딩</p>
+                    <div className="skill-wrap">
+                      <span>react-router</span>
+                      <span>react-query</span>
+                      <span>React</span>
+                    </div>
+                    <div className="btn-wrap">
+                      <a
+                        href="https://youtube-clone-one-phi.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="youtube"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-solid fa-up-right-from-square"></i>
+                          &nbsp; Work
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/devparkse/youtube-clone"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="youtube"
+                      >
+                        <span className="shortcut-btn">
+                          <i className="fa-brands fa-github"></i>&nbsp; GitHub
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="pro-study-wrap">
                   <img src={`${path}/images/todolist.png`} alt="todolist" />
                   <div className="pro-study-desc">
                     <p className="study-title">TodoList App</p>
